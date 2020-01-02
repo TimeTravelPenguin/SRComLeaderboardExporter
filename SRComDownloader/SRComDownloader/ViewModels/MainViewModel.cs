@@ -14,9 +14,12 @@
 
 #endregion
 
+using SpeedrunComSharp;
+
 namespace SRComDownloader.ViewModels
 {
   internal class MainViewModel
   {
+    private static SpeedrunComClient _srcClient = new SpeedrunComClient();
   }
 }

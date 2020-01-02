@@ -5,16 +5,27 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRComDownloader", "SRComDownloader\SRComDownloader.csproj", "{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedrunComSharp", "..\..\SpeedrunComSharp\SpeedrunComSharp\SpeedrunComSharp.csproj", "{924AAFFE-5B89-49E2-99AD-EC9373CC838D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug with API Calls|Any CPU = Debug with API Calls|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}.Debug with API Calls|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}.Debug with API Calls|Any CPU.Build.0 = Debug|Any CPU
 		{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16E83B6-0BC5-49C2-95A0-EC9022042DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924AAFFE-5B89-49E2-99AD-EC9373CC838D}.Debug with API Calls|Any CPU.ActiveCfg = Debug with API Calls|Any CPU
+		{924AAFFE-5B89-49E2-99AD-EC9373CC838D}.Debug with API Calls|Any CPU.Build.0 = Debug with API Calls|Any CPU
+		{924AAFFE-5B89-49E2-99AD-EC9373CC838D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924AAFFE-5B89-49E2-99AD-EC9373CC838D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924AAFFE-5B89-49E2-99AD-EC9373CC838D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924AAFFE-5B89-49E2-99AD-EC9373CC838D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
